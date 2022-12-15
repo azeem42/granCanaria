@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <title>Home and Help Grancanaria</title>
+    <style>
+        .divider {
+            height: 20px;
+        }
+
+        .divider1 {
+            height: 10px;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 15px;
+            width: 25px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            color: #00acf0;
+        }
+
+        .fa-facebook {
+            /* background: #3B5998; */
+            /* color: #00acf0; */
+        }
+
+        .sign-in {
+            font-family: 'Lato', sans-serif !important;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            padding: 0 2px;
+            font-weight: bold;
+        }
+
+        /* .contact-us{
+              text-decoration: none;
+              color: black;
+              font-size: 12px;
+              padding: 0 2px;
+              font-weight: bold;
+              margin-left: 20px;
+            } */
+        .contact-us {
+            text-decoration: none;
+            font-size: 14px;
+            /* display: inline-block; */
+            font-family: 'Lato', sans-serif;
+            color: #0d526e;
+            font-weight: 900;
+            border: none;
+            margin-top: 5px;
+            margin-left: 15px;
+            width: 206px;
+            text-align: center;
+        }
+
+        .phone-no {
+            color: #00acf0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .contact-us:hover {
+            text-decoration: none;
+            color: #0d526e;
+        }
+
+        .phone-no:hover {
+            text-decoration: none;
+        }
+
+        ul>li>a:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .topnav {
+            background-color: rgb(159, 233, 235) !important;
+            font-size: 14px;
+            padding: 8px;
+            font-weight: bold;
+        }
+
+        .txt {
+            font-size: 18px;
+        }
+
+        .selclass {
+            width: 100%;
+            text-align: center;
+        }
+
+        .inputDD {
+            height: 45px;
+            border: 1px solid #999;
+            background-image: url(https://homeandhelpgrancanaria.com/images/caret.png);
+            background-position: 102% center;
+            background-repeat: no-repeat;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            color: #999;
+            font-family: 'Lato', sans-serif;
+            padding: 0 17px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .about-homehelp {
+            padding: 0;
+        }
+
+        .about-homehelp * {
+            color: #fff !important;
+            text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.28);
+            font-family: 'Lato', sans-serif !important;
+        }
+
+        .about-homehelp1 {
+            background-image: url(images/home1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px 0;
+            text-align: left;
+            height: 354px;
+        }
+
+        h2 {
+            font-size: 39px;
+            margin-left: 145px;
+        }
+
+        .about-homehelp .home-heading h2 {
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        .about-homehelp .home-heading h4 {
+            font-size: 22px;
+
+        }
+
+        .about-homehelp .home-heading h3 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 39px;
+            margin-left: 145px;
+        }
+
+        h4 {
+            margin-left: 145px;
+        }
+
+        .integrity-passion {
+            max-width: 850px;
+            /* margin-left: 0; */
+            margin-left: 148px;
+        }
+
+        .about-homehelp h3 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .about-homehelp .text-section p {
+            max-width: 777px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .about-homehelp .text-section a {
+            font-weight: bold;
+        }
+
+        .about-homehelp2 {
+            background-image: url(https://homeandhelpgrancanaria.com/images/home-bg02.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px 0;
+            text-align: left;
+            height: 314px;
+        }
+
+        .about-homehelp2 .home-heading2 {
+            max-width: 812px;
+            margin-left: 375px;
+        }
+
+        .about-homehelp2 .home-heading2 h3 {
+            margin-top: 0;
+            font-weight: bold;
+            margin-right: 58px;
+        }
+
+        /* .about-homehelp2 .home-heading2 h3 {
+                font-size: 39px;
+            } */
+        .about-homehelp .text-section p a {
+            text-decoration: none;
+        }
+
+        .about-homehelp2 .text-section p {
+            font: 15px 'lato';
+            line-height: 30px;
+        }
+
+        .carosal-part {
+            background-color: #313131;
+            background-image: url(https://homeandhelpgrancanaria.com/images/home-showcase-bg.png) !important;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-bottom: 0;
+        }
+
+        .featured-listing {
+            /* text-align: center; */
+            color: white;
+        }
+
+        .featured-listing h2 {
+            margin: 0;
+            font: 31.03px Open Sans;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+        .service {
+            margin: 20px 0;
+        }
+
+        .service .title {
+            display: table;
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+
+        .for-rent {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(52, 54, 66, 0.8);
+            color: white;
+            text-align: center;
+            z-index: 4;
+        }
+
+        .social-media {
+            float: right;
+            color: white;
+            margin-top: -12px;
+            font-size: 25px;
+            margin-right: 10px;
+        }
+
+        .home-help-service {
+            background-color: #fff;
+            background-image: url(https://homeandhelpgrancanaria.com/images/sales-page-bg.png);
+            background-repeat: no-repeat;
+            background-position: center right;
+            background-size: cover;
+        }
+
+        .section-heading>p {
+            text-transform: uppercase;
+            color: #00acf0;
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        .section-heading>h1 {
+            opacity: 0.8;
+            font-size: 36px;
+        }
+
+        .bottom-border {
+            /* content: ''; */
+            position: absolute;
+            width: 40px;
+            border-bottom: 1px solid #69ad0e;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .section-heading2 {
+            margin: 20px 0;
+        }
+
+        /* .section-heading2 >.title1{
+            display: table;
+            margin-bottom: 10px;
+            margin-left: 0;
+        } */
+        .section-heading2>.title1>h4 {
+            margin-left: 57px;
+            margin-top: -39px;
+            font-size: 24px;
+            opacity: 0.8;
+        }
+
+        .section-heading2>p {
+            font-size: 18px;
+            opacity: 0.9;
+            line-height: normal;
+        }
+
+        .section-heading2>p>a {
+            text-decoration: none;
+            font-size: 20px;
+            color: green;
+        }
+
+        .client-review {
+
+            background-image: url('/images/client2.png');
+            height: 400px;
+            background-repeat: no-repeat;
+            /* background-repeat: no-repeat; */
+
+            /* position: absolute; 
+            left: 0;
+            top: 0; */
+        }
+
+        .client-review h2 {
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer-area {
+            height: auto;
+            margin: 0px auto;
+            padding: 0;
+            width: 100%;
+        }
+
+        .footer-bar {
+            height: auto;
+            padding: 25px 0 30px;
+            width: 100%;
+        }
+
+        .f-upper {
+            border-bottom: 1px solid #5e5e5e;
+            display: table;
+            overflow: hidden;
+            padding: 0 0 20px;
+            width: 100%;
+        }
+
+        .f-upper-col {
+            display: table-cell;
+            padding-left: 20px;
+            padding-right: 15px;
+            vertical-align: top;
+        }
+
+        .f-left-logo img {
+            width: 100%;
+            max-width: 150px;
+        }
+
+        .f-center-text p {
+            color: white;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .f-upper-col span {
+            color: #ff008c;
+        }
+
+        .f-upper-col .f-logreg {
+            width: auto;
+        }
+
+        .log-reg {
+            padding: 10px 0 0;
+        }
+
+        .log-reg a {
+            border: 1px solid #ccc;
+            font-size: 13px;
+            color: #fff;
+            padding: 10px 41px;
+            text-decoration: none;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .top-section {
+            padding-top: 20px;
+            width: 100%;
+
+        }
+
+        /* .top-section ul{
+            list-style: outside none none;
+            margin-left: -15px;} */
+
+        /* .top-section h5{
+            color: #fff;
+            float: left;
+            font-family: "Source Sans Pro","Helvetica Neue","HelveticaNeue" !important;
+            font-size: 20px;
+            font-weight: 300;
+            height: auto;
+            margin: 8px 0;
+            margin-left: 0px;
+            width: 100%;
+        } */
+        .top-section h5 {
+            color: #fff;
+            float: left;
+            font-family: "Source Sans Pro", "Helvetica Neue", "HelveticaNeue" !important;
+            font-size: 20px;
+            font-weight: 300;
+            height: auto;
+            margin: 8px 0;
+            margin-left: 0px;
+            width: 100%;
+        }
+
+        .top-section ul li {
+            width: 50%;
+            float: left;
+            height: auto;
+        }
+
+        .top-section ul {
+            list-style-type: none;
+        }
+
+        .top-section ul li a {
+            color: white;
+            float: left;
+            font-family: "Source Sans Pro", "Helvetica Neue", "HelveticaNeue" !important;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            height: auto;
+            line-height: 37px;
+            width: 100%;
+        }
+
+        .f-social-connect {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .top-section .f-social-connect a i {
+            padding: 20px;
+            font-size: 25px;
+            width: 25px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            color: white;
+        }
+
+        .top-section p {
+            color: white;
+            font-size: 14px;
+        }
+
+        .top-section button {
+            border: 1px solid white;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: white;
+            font-size: 14px;
+        }
+
+        .top-section .logo .img_width {
+            max-width: 130px;
+            margin-top: 10px;
+        }
+
+        .last-div {
+            background-color: black;
+            color: white;
+            padding: 25px 0;
+            font-size: 15px;
+        }
+
+        .sect {
+            background-color: #353743;
+            text-align: center;
+        }
+
+        .sect-input {
+            height: 45px;
+            border: 1px solid #999;
+            background-image: url('https://homeandhelpgrancanaria.com/images/caret.png');
+            background-repeat: no-repeat;
+            background-position: 95% center;
+            color: #999;
+            font-family: 'Lato', sans-serif;
+            padding: 0px 34px 0px 15px;
+            font-size: 16px;
+            margin-right: 5px;
+            font-weight: 400;
+        }
+
+        ::placeholder {
+            color: #6c757d;
+            opacity: 0.5;
+        }
+
+        .reviews .card {
+            border-top: 1px solid rgb(36, 86, 236);
+            margin-top: 49px;
+            height: 230px;
+            width: 370px;
+            background-color: rgba(243, 232, 232, 0.974);
+            margin-left: 139px;
+        }
+
+        .reviews .card .card-body {
+            margin-left: 20px;
+        }
+
+        .reviews .card .card-title img {
+            max-width: 70px;
+        }
+
+        .reviews .card .card-title h4 {
+            color: #0fb3f4;
+            font-weight: bold;
+            margin-left: 85px;
+            margin-top: -51px;
+        }
+
+        .reviews .card .card-title p {
+            color: #626262;
+            font-size: 16px;
+            font-family: sans-serif;
+            margin-top: 23px;
+        }
+
+        .reviews .card .card-title a {
+            color: green;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+
+        .flag {
+            margin-left: 291px;
+            margin-top: -103px;
+            transform: skewX(-25deg);
+            width: 11%;
+
+        }
+
+        .carousel-indicators li.active {
+            background-color: #444;
+        }
+
+        .weather a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .weather a span {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--top row-->
+        <div class="row">
+
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <ul style="list-style-type: none; float: right;" class="list-inline">
+                        <li><a class="sign-in" href=""> <i class="fa fa-sign-in" aria-hidden="true"
+                                    style="color: black; font-weight: bold;"></i>LOGIN</a></li>
+                        <li><a class="sign-in" href=""> <i class="fa fa-user-plus" aria-hidden="true"
+                                    style="color: black;"></i>REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: -26px;">
+            <div class="col-md-4">
+
+                <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <br>
+                <a class="contact-us" href="">Contact Us
+                    <span class="phone-no">+34 928 73 72 34</span>
+                </a>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <a href=""><img style="max-width: 45%; margin-left: auto; margin-right: auto;" class="img-responsive"
+                        src="https://homeandhelpgrancanaria.com/images/logo-h&h.png" alt=""></a>
+            </div>
+
+            <div class="col-md-4">
+
+                <div>
+                    <img style="width: 150px;float: right; margin-right: 8px;" class="img-responsive"
+                        src="https://homeandhelpgrancanaria.com/images/aipp-logo.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divider1"></div>
+    <div class="container-fluid topnav">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 topnav">
+                    <ul class="list-inline text-center">
+                        <li class="active" style="padding-right: 45px;">HOME</li>
+                        <li style="padding-right: 45px;">PROPERTY SEARCH</li>
+                        <li style="padding-right: 45px;">NEIGHBORHOODS</li>
+                        <li style="padding-right: 45px;">BUYER'S GUIDE</li>
+                        <li style="padding-right: 45px;">RENTAL FAQ</li>
+                        <li style="padding-right: 45px;">SERVICES</li>
+                        <li style="padding-right: 45px;">LIFESTYLE</li>
+                        <li style="padding-right: 45px;">CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--video Starts-->
+
+    <div class="embed-responsive embed-responsive-16by9" style="margin-top: -307px; margin-bottom: -306px;">
+        <iframe class="embed-responsive-item"
+            src="https://player.vimeo.com/video/257855884?autoplay=1&loop=1&muted=1"></iframe>
+    </div>
+
+    <!--video ends-->
+
+    <section class="sect">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <form class="form-inline" style="padding: 10px;">
+
+                        <div class="form-group">
+
+                            <select style="width:113px;" class="form-control sect-input">
+                                <option value="">For Sale</option>
+                                <option value="">For Rent</option>
+                            </select>
+
+                            <select style="width:180px;" class="form-control sect-input">
+                                <option value="">Property Type</option>
+                                <option value="">For Rent</option>
+                            </select>
+
+                            <select style="width:180px;" class="form-control sect-input">
+                                <option value="">Areas</option>
+                                <option value="">For Rent</option>
+                            </select>
+
+                            <select style="width:133px;" class="form-control sect-input">
+                                <option value="">Bedrooms</option>
+                                <option value="">For Rent</option>
+                            </select>
+
+                            <select style="width:148px;" class="form-control sect-input">
+                                <option value="">Select Price</option>
+                                <option value="">For Rent</option>
+                            </select>
+
+                            <input type="text" class="form-control mr-2" placeholder="Reference No"
+                                style="width: 130px;height: 42px;font-size: 18px;">
+
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="width: 100px;height: 43px;font-size: 18px;">Search</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about-homehelp">
+
+        <!--1st pic-->
+        <div class="about-homehelp1">
+
+            <div class="container">
+
+                <div class="home-heading">
+
+                    <h2>Welcome to Home&Help Properties</h2>
+                    <h4>International Real Estate Agents & Property Management Gran Canaria</h4>
+                    <div class="divider1"></div>
+                    <div class="integrity-passion">
+                        <h3>Integrity Passion and team Excellence</h3>
+                        <span style="font-size: 22px;">It's in everything we do.</span>
+                        <div class="divider1"></div>
+
+                        <div class="text-section">
+                            <p>
+                                Home and help Gran Canaria is an International Real Estate agency based in
+                                Playa Del Ingles . We offer fully comprehensive and high quality property
+                                services to our clients, for both sales and rentals in Gran Canaria. We take
+                                pride in delivering exceptional consumer experiences, by building personal
+                                and honest relationships with our customers and property owners.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--End of 1st pic-->
+
+        <!--2nd pic starts-->
+        <div class="about-homehelp2" style="text-align: right;">
+
+            <div class="container">
+
+                <div class="home-heading2">
+
+                    <h3>Now purchasing a modern luxury estate is easier than ever before Enjoy home buying as it should
+                        be - custom, private, pleasant</h3>
+
+                    <div class="divider1"></div>
+                    <div class="text-section">
+                        <p>
+                            Our thorough knowledge of
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/san-agustin">San Agustin</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/playa-del-ingles">Playa Del
+                                Ingles</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/maspalomas">Maspalomas</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/meloneras">Meloneras</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/sonnenland">Sonneland</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/pasito-blanco">Pasito Blanco</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/salobre-golf">Salobre Golf</a>,
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/puerto-rico">Puerto Rico</a>
+                            and
+                            <a href="https://homeandhelpgrancanaria.com/neighborhoods/mogan">Puerto De Mogan</a>
+                            allows us to search and select the best
+                            <span>Private Villas, Apartments, Bunglows</span>
+                            in prime locations. Don’t forget to Sign up for an Account and Search
+                            Smarter with Home & Help, Get new Property Alerts, Price change alerts, add
+                            your Favourite Property’s and Save your Searches. We have hundreds of
+                            splendid properties to choose from.
+                        </p>
+                    </div>
+
+                    <!-- </div> -->
+
+                    <h3>
+                        Modern times - modern brand
+                        <br>
+                        We value: Wise People. New Tech. High Service.
+                    </h3>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--end of 2nd pic-->
+
+
+    </section>
+
+
+    <!--Services Part-->
+
+    <section class="carosal-part">
+        <div class="container-fluid">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="featured-listing">
+                        <h2>Featured Listings</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="divider1"></div> -->
+        </div>
+
+        <!--carousel starts-->
+        <section class="pt-5 pb-5">
+            <div class="row">
+                <div class="col-12">
+                    
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+
+                        <!-- The slideshow/carousel -->
+        <div class="carousel-inner" style="width: 94%; margin-left: 59px; margin-right: 62px;">
+
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 495px;">
+                                            <img src="/images/img5.jpg" alt="" style="height: 308px;">
+                                            <div class="for-rent" style="height: 40px;">
+                                                <h3 style="font-size: 25px;"><i>For Rent 800€</i><i
+                                                        class="fa fa-heart-o social-media"></i></h3>
+
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <h3>Apartment For Rent in Peurto Rico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon" style="margin-right: auto;"></span> -->
+                            <img src="https://homeandhelpgrancanaria.com/images/arrow-left.png" alt=""
+                                style="margin-right: 219px;">
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <!-- <span class="carousel-control-next-icon" style="margin-left: auto;"></span> -->
+                            <img src="https://homeandhelpgrancanaria.com/images/arrow-right.png" alt=""
+                                style="margin-left: 219px;">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<div class="divider"></div>
+<div class="divider1"></div>
+        <!--carousel ends-->
+    </section>
+
+    <!--Our Services-->
+
+    <div class="home-help-service panel panel-default">
+        <div class="divider"></div>
+        <div class="divider"></div>
+        <section>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 section-text text-center">
+                        <div class="section-heading">
+                            <h1>Our Services</h1>
+                            <p>See what a five star team can do for you!</p>
+                            <div class="bottom-border"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left:90px; margin-right:90px;">
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <div class="section-heading2">
+                            <div class="title1">
+                                <img src="https://homeandhelpgrancanaria.com/images/buyers.png" alt="">
+                                <h4>For Buyers</h4>
+                            </div>
+                            <p>Buying your new home in Gran Canaria.Is buying a home in Gran Canaria
+                                a good investment?<strong>YES!</strong>
+                                Will I love my Gran Canaria home?<strong>YES!</strong>
+                                <a href="https://homeandhelpgrancanaria.com/services/buying-your-new-home">
+                                    <br>
+                                    Read more...
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- <div class="divider"></div> -->
+        </section>
+
+    </div>
+    <!-- </div>  -->
+    <!--Services part ends here-->
+
+    <!--Client Review Part-->
+
+    <!-- <div class="row" style="background-image: url(https://homeandhelpgrancanaria.com/images/home-bg03.png); height: 300px; background-position: left; background-repeat: no-repeat; background-size: 100% 100%; width:60%">
+        
+    </div> -->
+    <!-- <div class="client-review panel panel-dafault" style="border: 2px solid red; display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Our Client Review</h2>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--Client Reneiw Part ends here-->
+
+
+    <div class="container-fluid client-review" style="border: 2px solid black;">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Our Client Review</h2>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- Carousel -->
+                    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+
+                        <ul>
+                            <div class="carousel-indicators" style="top:0;left:38px;margin-top: 29px;">
+                                <li><button type="button" data-bs-target="#demo1" data-bs-slide-to="0"
+                                        class="active"></button></li>
+                                <li><button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button></li>
+                                <li><button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button></li>
+                            </div>
+                        </ul>
+
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- <img src="la.jpg" alt="Los Angeles" class="d-block w-100"> -->
+
+                                <div class="reviews">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <img class="rounded-circle"
+                                                    src="https://homeandhelpgrancanaria.com/images/review_images/antonio.jpg"
+                                                    alt="">
+                                                <h4>Antonio</h4>
+                                                <img class="flag"
+                                                    src="https://homeandhelpgrancanaria.com/images/italy.jpg"
+                                                    alt="Italy Flag">
+                                                <p>Mi hanno affittato due appartamenti nel<br> giro di pochissimi
+                                                    giorni, sono veramente in</p>
+                                                <a href="">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="reviews">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <img class="rounded-circle"
+                                                    src="https://homeandhelpgrancanaria.com/images/review_images/antonio.jpg"
+                                                    alt="">
+                                                <h4>Antonio</h4>
+
+                                                <img class="flag"
+                                                    src="https://homeandhelpgrancanaria.com/images/italy.jpg"
+                                                    alt="Italy Flag">
+
+                                                <p>Mi hanno affittato due appartamenti nel<br> giro di pochissimi
+                                                    giorni, sono veramente in</p>
+                                                <a href="">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="reviews">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <img class="rounded-circle"
+                                                    src="https://homeandhelpgrancanaria.com/images/review_images/antonio.jpg"
+                                                    alt="">
+
+                                                <h4>Antonio</h4>
+                                                <img class="flag"
+                                                    src="https://homeandhelpgrancanaria.com/images/italy.jpg"
+                                                    alt="Italy Flag">
+
+                                                <p>Mi hanno affittato due appartamenti nel<br> giro di pochissimi
+                                                    giorni, sono veramente in</p>
+                                                <a href="">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+
+
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo1"
+                            data-bs-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon"> -->
+                            <img src="https://homeandhelpgrancanaria.com/images/review-left.png" alt=""
+                                style="margin-left: 43px;">
+                            <!-- </span> -->
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo1"
+                            data-bs-slide="next">
+                            <!-- <span class="carousel-control-next-icon"> -->
+                            <img src="https://homeandhelpgrancanaria.com/images/review-right.png" alt=""
+                                style="margin-right: 43px;">
+                            <!-- </span> -->
+                        </button>
+
+
+
+                        <button type="button" class="btn btn-info btn-lg" style="margin-top: 15px; margin-left: 139px; border-radius: 0%; font-size: 15px;
+            color: white;padding: 8px;">Add Reviews</button>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer style="background-color: #333;">
+        <div class="footer-desktop">
+            <div class="container">
+                <div class="footer-area">
+                    <div class="footer-bar">
+                        <div class="row">
+                            <div class="f-upper">
+                                <div class="f-upper-col f-left-logo">
+                                    <img style="margin-left: 7px;"
+                                        src="https://homeandhelpgrancanaria.com/images/logo-h&h.png" alt="">
+                                </div>
+                                <div class="f-upper-col f-center-text">
+                                    <p>Our Search Tools Are Used By The Happiest Home Buyers in Gran Canaria</p>
+                                    <p>
+                                        <span>Hey, Chat with Us</span>
+                                        We are Available Monday to Friday 9:30am - 3:30pm Saturday 09:30 - 03:30pm
+                                    </p>
+                                </div>
+                                <div class="f-upper-col text-righ f-logreg">
+                                    <div class="log-reg">
+                                        <a href="javascript:;">Login</a>
+                                        <a href="javascript:;">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="top-section">
+                                    <h5 style="margin-left: 16px;">Top Sections</h5>
+                                    <ul>
+                                        <li><a href="">Buyers Guide</a></li>
+                                        <li><a href="">The Team</a></li>
+                                        <li><a href="">Property For Sale</a></li>
+                                        <li><a href="">Join Our Team</a></li>
+                                        <li><a href="">Property For Rent</a></li>
+                                        <li><a href="">Partner With Us</a></li>
+                                        <li><a href="">Local Network</a></li>
+                                        <li><a href="">Renovation</a></li>
+                                        <li><a href="">Port Sale</a></li>
+                                        <li><a href="">Home Insurance</a></li>
+                                        <li><a href="">Gran Canaria</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="text-align: center;">
+                                <div class="top-section">
+                                    <div class="f-social-connect">
+
+                                        <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                        <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    </div>
+
+                                    <div class="weather">
+                                        <a href="https://www.theweather.com/playa-del-ingles.htm">
+                                            <span>Weather Playa del Inglés</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="top-section text-center">
+                                    <h5>Home and Help Gran Canaria</h5>
+                                    <p>
+                                        Av. de Tirajana, 21, Local 14<br>
+                                        <span>Playa del Inglés 35100</span><br>
+                                        Maspalomas Gran Canaria<br>
+                                        <span style="color: #fff;">(+34) 928 73 72 34</span>
+                                    </p>
+                                    <button type="button" class="btn">SHOW MAP</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="top-section">
+                                    <div class="logo">
+                                        <a href=""><img class="img-responsive img_width"
+                                                src="https://homeandhelpgrancanaria.com/images/gurantee.png" alt=""></a>
+                                        <a href=""><img class="img-responsive" style="max-width:160px; margin-top: 5px;"
+                                                src="https://homeandhelpgrancanaria.com/images/footer-aipp.jpg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="container-fluid text-center last-div">
+
+        © Home and Help Gran Canaria 2022
+
+    </div>
+</body>
+
+</html>
